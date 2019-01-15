@@ -5,11 +5,6 @@ int main(){
 	int i,x,n,a,c=0,sum=0;
 	cin >> n;
 	x=n;
-	while(x!=0){
-		x=x/10;
-		c++;
-	}
-x=n;
 while(x!=0){
 	a=x%10;
 	sum=sum*10+a;
